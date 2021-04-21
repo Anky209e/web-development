@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(17,60px);
+    column-gap: 1%;
+    row-gap: 1%;
+    background-color: rgb(37, 37, 37);
+    
+}
+.navbar-container{
+    border: 1px solid rgb(85, 184, 27);
+    grid-column: 1/ span 8;
+    grid-row: 1  ;
+
+    background-color: rgb(119, 163, 119);
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+li{
+    display: inline
+    
+}
+.nav-text{
+    
+    color: whitesmoke;
+    font-size: 125%;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    
+    
+    
+    
+}
+i{
+    float: left;
+    padding-bottom: 7px;
+    
+}
+.navbar-link{
+    color: whitesmoke;
+    
+    text-decoration: none;
+    margin-right: 0.7%;
+    margin-top: 0.5%;
+    float: right;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    font-size: 120%;
+    padding: 0.5%;
+}
+
+.navbar-link:hover{
+    color: rgb(49, 48, 48);
+}
+/* ---------service---------------- */
+.service-text-container{
+    grid-column: 2 / span 6;
+    grid-row: 2 / span 3;
+    
+    text-align: center;
+}
+.service-text{
+    color: white;
+    text-shadow: 0 0 20px rgb(20, 184, 248);
+    font-family: 'Zen Dots', cursive;
+    position: relative;
+    top: 10%;
+    font-size: 50px;
+
+}
+/* -----------services card-------------- */
+.services-container{
+    grid-column: 1 / span 8;
+    grid-row: 5 / span 11;
+    background-color: rgb(66, 65, 65);
+    justify-content: center;
+
+}
+.text-cont{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+.service-card{
+    background-color: rgb(44, 153, 226);
+    background-size: cover;
+    
+    display: inline-block;
+    width: 25%;
+    height: 40%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5%;
+    margin-right: 0%;
+    margin-top: 2%;
+    
+}
+
+.service-info{
+    
+    display: inline;
+    position: relative;
+    top: 40%;
+    font-size: larger;
+    color: whitesmoke;
+    background-color: rgb(66, 65, 65);
+    padding: 4%;
+    border-radius: 2px;
+    font-family: 'Nunito', sans-serif;
+    
+}

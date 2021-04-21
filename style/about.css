@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(17,60px);
+    column-gap: 1%;
+    row-gap: 1%;
+    background-image: url("https://wallpapercave.com/wp/wp1966211.jpg");
+    background-size: cover;
+    
+}
+/* ---------------Navbar------------------------ */
+.navbar-container{
+    border: 1px solid rgb(85, 184, 27);
+    grid-column: 1/ span 8;
+    grid-row: 1  ;
+
+    background-color: rgb(119, 163, 119);
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+li{
+    display: inline
+    
+}
+.nav-text{
+    
+    color: whitesmoke;
+    font-size: 125%;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+    
+    
+    
+}
+i{
+    float: left;
+    padding-bottom: 7px;
+    
+}
+.navbar-link{
+    color: whitesmoke;
+    
+    text-decoration: none;
+    margin-right: 0.7%;
+    margin-top: 0.5%;
+    float: right;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    font-size: 120%;
+    padding: 0.5%;
+}
+
+.navbar-link:hover{
+    color: rgb(49, 48, 48);
+}
+/* ---------about------------ */
+.about-box{
+    grid-column: 1 / span 8;
+    grid-row: 3 / span 6;
+}
+.about-head{
+    text-align: center;
+    display: block;
+    text-shadow: 0 0 15 blue;
+    font-size: 30px;
+    font-family: 'Zen Dots', cursive;
+}
+.about-cont{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    opacity: 60%;
+}

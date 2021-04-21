@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(17,60px);
+    column-gap: 1%;
+    row-gap: 1%;
+    background-color: rgb(37, 37, 37);
+    
+}
+.navbar-container{
+    border: 1px solid rgb(85, 184, 27);
+    grid-column: 1/ span 8;
+    grid-row: 1  ;
+
+    background-color: rgb(119, 163, 119);
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+li{
+    display: inline
+    
+}
+.nav-text{
+    
+    color: whitesmoke;
+    font-size: 125%;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    
+    
+    
+    
+}
+i{
+    float: left;
+    padding-bottom: 7px;
+    
+}
+.navbar-link{
+    color: whitesmoke;
+    
+    text-decoration: none;
+    margin-right: 0.7%;
+    margin-top: 0.5%;
+    float: right;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    font-size: 120%;
+    padding: 0.5%;
+}
+
+.navbar-link:hover{
+    color: rgb(49, 48, 48);
+}
+/* -----------portfolio--------------------- */
+.port-container{
+    grid-column: 1 / span 8;
+    grid-row: 2/ span 8;
+    background-image: url(https://wallpapercave.com/wp/wp2964229.jpg);
+    
+}
+.port-head{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    right: 3%;
+    font-family: 'Nunito', sans-serif;
+
+}
+.port-para{
+    color: honeydew;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.port-content{
+    position: relative;
+    left: 25%;
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+}
+.img-port{
+    position: relative;
+    width: 15%;
+}
+/* ------------acts----------------- */
+.act-container{
+    grid-column: 1 / span 8;
+    grid-row: 10 / span 11;
+    background-color: rgb(46, 44, 44);
+}
+.act-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.act-card{
+    
+    display: flex;
+    padding: 1.6%;
+    position: relative;
+    top: 10%;
+    margin-top: 1%;
+    
+    background-color: rgb(117, 147, 212);
+}
+.act-card-container{
+    display: inline;
+    position: relative;
+    top: 2%;
+}
+.act-img{
+    float: left;
+    display: inline;
+}
